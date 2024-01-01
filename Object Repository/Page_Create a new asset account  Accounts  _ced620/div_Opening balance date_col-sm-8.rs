@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Opening balance date_col-sm-8</name>
+   <tag></tag>
+   <elementGuidId>1d37a7e1-9118-4c1f-a5af-52db1ff377b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#opening_balance_date_holder > div.col-sm-8</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='opening_balance_date_holder']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f80525f9-c0f0-4415-bea8-76b04ce7c654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-8</value>
+      <webElementGuid>ddd3c549-9a1d-438c-8b14-a47124add9b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;opening_balance_date_holder&quot;)/div[@class=&quot;col-sm-8&quot;]</value>
+      <webElementGuid>100bf503-5b8d-4e0f-bf46-18f836463fc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='opening_balance_date_holder']/div</value>
+      <webElementGuid>a4eac48c-7de3-48b0-b13c-42c14b67c23a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[5]/div</value>
+      <webElementGuid>016ba25f-7cea-41b3-b5a9-8c54f03917e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

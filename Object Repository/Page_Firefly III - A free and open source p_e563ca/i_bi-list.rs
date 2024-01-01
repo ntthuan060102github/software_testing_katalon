@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_bi-list</name>
+   <tag></tag>
+   <elementGuidId>36943bb9-a0f4-414e-8c0e-f9d4e69f89f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi-list</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>10377a32-2bb4-47fc-af68-b7ab5392cdbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi-list</value>
+      <webElementGuid>24c907a5-3b44-453a-8953-831226a5dc80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nav[@class=&quot;navbar navbar-expand-lg bg-light navbar-light fixed-top shadow-sm&quot;]/div[@class=&quot;container&quot;]/button[@class=&quot;navbar-toggler&quot;]/i[@class=&quot;bi-list&quot;]</value>
+      <webElementGuid>3c67da8c-19f9-4a89-81a7-6b80c51233f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>85a05f48-cdf2-4792-99c6-59707fd12a43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

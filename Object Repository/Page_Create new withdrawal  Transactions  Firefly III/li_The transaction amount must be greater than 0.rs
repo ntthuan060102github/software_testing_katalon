@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_The transaction amount must be greater than 0</name>
+   <tag></tag>
+   <elementGuidId>9d244052-7b45-45f2-bd44-b0ab706e6add</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li.text-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='amount-info']/div/ul/li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5db64272-c675-41e4-8655-c0b9780d425b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>0dec6a36-20d0-4157-82ff-57c2d5efbd42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The transaction amount must be greater than 0.</value>
+      <webElementGuid>4d4d1784-eb76-48df-a0a1-0d84a7d6fa29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;amount-info&quot;)/div[@class=&quot;form-group has-error&quot;]/ul[@class=&quot;list-unstyled&quot;]/li[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>60b12358-a596-46ec-bb0d-58b383589df9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='amount-info']/div/ul/li</value>
+      <webElementGuid>5c0f13d0-3fe7-45ff-9f30-a41f10ff5997</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul/li</value>
+      <webElementGuid>c8e72484-68c6-4817-bd9b-981ed7fcc5cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'The transaction amount must be greater than 0.' or . = 'The transaction amount must be greater than 0.')]</value>
+      <webElementGuid>673d5168-ecce-45e0-a69e-a51c7e80636e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

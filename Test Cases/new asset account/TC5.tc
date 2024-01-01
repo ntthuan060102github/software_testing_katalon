@@ -7,7 +7,7 @@
    <testCaseGuid>efecbe95-04df-4914-9f23-96384d920ca7</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>87ae1b22-e556-40dc-828c-1bc1a5bff4b4</id>
+      <id>9c99e3e9-80bb-468f-ac7e-49a4c56c2c70</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,16 +15,22 @@
       <testDataId>Data Files/create new asset account/new_asset_sheet2</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>87ae1b22-e556-40dc-828c-1bc1a5bff4b4</testDataLinkId>
+      <testDataLinkId>9c99e3e9-80bb-468f-ac7e-49a4c56c2c70</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>currency</value>
       <variableId>c1f07fe6-22cf-439c-a43a-57e4cb6ae166</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>87ae1b22-e556-40dc-828c-1bc1a5bff4b4</testDataLinkId>
+      <testDataLinkId>9c99e3e9-80bb-468f-ac7e-49a4c56c2c70</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>expected_result</value>
       <variableId>9c0a326f-9849-4201-94c5-2bab488062ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>838f35a6-5c49-4573-a796-5ec3093de426</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -39,5 +45,12 @@
       <id>9c0a326f-9849-4201-94c5-2bab488062ce</id>
       <masked>false</masked>
       <name>expected_result</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>838f35a6-5c49-4573-a796-5ec3093de426</id>
+      <masked>false</masked>
+      <name>actual_result</name>
    </variable>
 </TestCaseEntity>

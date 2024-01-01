@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='opening_balance_date_holder']/div</value>
+         <value>//*[@id=&quot;ffInput_opening_balance_date&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f80525f9-c0f0-4415-bea8-76b04ce7c654</webElementGuid>
+      <webElementGuid>a7887660-4cac-436f-b1e5-ea3604f219d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-sm-8</value>
-      <webElementGuid>ddd3c549-9a1d-438c-8b14-a47124add9b7</webElementGuid>
+      <webElementGuid>361be1ff-b260-4561-bc47-9eae550fa17d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;opening_balance_date_holder&quot;)/div[@class=&quot;col-sm-8&quot;]</value>
-      <webElementGuid>100bf503-5b8d-4e0f-bf46-18f836463fc2</webElementGuid>
+      <webElementGuid>c0371fa5-e64e-4e23-b29f-11811e9582ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='opening_balance_date_holder']/div</value>
-      <webElementGuid>a4eac48c-7de3-48b0-b13c-42c14b67c23a</webElementGuid>
+      <webElementGuid>ec73a30e-7faa-4d18-a3a9-1c909ec17535</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[5]/div</value>
-      <webElementGuid>016ba25f-7cea-41b3-b5a9-8c54f03917e5</webElementGuid>
+      <webElementGuid>b4ddd9f0-5de7-4849-b0bb-8becbdd07b5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Create a new asset account 
 WebUI.setText(findTestObject('Page_Create a new asset account  Accounts  _ced620/input_Opening balance_opening_balance'), 
     opening_balance)
 
-WebUI.click(findTestObject('Page_Create a new asset account  Accounts  _ced620/div_Opening balance date_col-sm-8'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Create a new asset account  Accounts  _ced620/div_Opening balance date_col-sm-8'), opening_balance_date)
 
 WebUI.click(findTestObject('Page_Create a new asset account  Accounts  _ced620/button_Store new asset account'))
 

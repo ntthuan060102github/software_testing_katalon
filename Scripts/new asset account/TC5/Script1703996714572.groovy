@@ -33,14 +33,11 @@ WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'
 
 WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/h4_New asset account'))
 
-WebUI.click(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'))
-
 WebUI.selectOptionByLabel(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'), 
     currency, false)
 
-WebUI.verifyTextPresent(expected_result, false)
+WebUI.verifyOptionSelectedByLabel(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'), 
+    expected_result, false, 0)
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 

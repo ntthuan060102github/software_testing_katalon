@@ -31,19 +31,13 @@ WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_S
 
 WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New expense account'))
+WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New withdrawal'))
 
-WebUI.setText(findTestObject('Page_Create a new asset account  Accounts  _ced620/input_name'), 'Name')
+WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+    'test')
 
-WebUI.click(findTestObject('Page_Create a new expense account  Accounts  Firefly III/input_Attachments_attachments'))
-
-WebUI.uploadFile(findTestObject(null), '')
-
-WebUI.click(findTestObject('Page_Create a new expense account  Accounts  Firefly III/button_Store new expense account'))
-
-WebUI.verifyTextPresent(expected_result, false)
+WebUI.verifyElementPresent(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+    0)
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 

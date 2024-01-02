@@ -31,33 +31,13 @@ WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_S
 
 WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New withdrawal'))
-
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), description)
-
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Source account_source'), source)
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Amount_amount'), amount)
-
-WebUI.sendKeys(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Source account_source'), Keys.chord(
-        Keys.ENTER))
+WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New transfer'))
 
 WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
-    destination)
+    'test')
 
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Foreign amount_foreign_amount'), 
-    foreign_amount)
-
-WebUI.sendKeys(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/button_Submit'))
-
-WebUI.verifyTextPresent(expected_result, false)
+WebUI.verifyElementPresent(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+    0)
 
 WebUI.closeBrowser()
 

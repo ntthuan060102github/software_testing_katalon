@@ -31,19 +31,33 @@ WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_S
 
 WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New expense account'))
+WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New withdrawal'))
 
-WebUI.setText(findTestObject('Page_Create a new asset account  Accounts  _ced620/input_name'), 'Name')
+WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), description)
 
-WebUI.click(findTestObject('Page_Create a new expense account  Accounts  Firefly III/input_Attachments_attachments'))
+WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Source account_source'), source)
 
-WebUI.uploadFile(findTestObject(null), '')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Create a new expense account  Accounts  Firefly III/button_Store new expense account'))
+WebUI.sendKeys(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Source account_source'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+    destination)
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.selectOptionByLabel(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'), 
+    currency, false)
+
+WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Date_date'))
+
+WebUI.click(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/button_Submit'))
 
 WebUI.verifyTextPresent(expected_result, false)
 
 WebUI.closeBrowser()
-
-WebUI.acceptAlert()
 

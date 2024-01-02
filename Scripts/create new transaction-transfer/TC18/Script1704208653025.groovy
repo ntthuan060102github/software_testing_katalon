@@ -25,13 +25,11 @@ WebUI.click(findTestObject('Object Repository/login/button_login'))
 
 WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
-WebUI.click(findTestObject('sidebar/sidebar_item_new_transfer'))
+WebUI.click(findTestObject('sidebar/button_new_drawal'))
 
-WebUI.setText(findTestObject('create_new_transfer/input_description'), 'test')
+WebUI.click(findTestObject('create_new_transfer/button_Submit'))
 
-actual_text = WebUI.getAttribute(findTestObject('create_new_transfer/input_description'), 'value')
-
-WebUI.verifyEqual(actual_text, expected_text)
+WebUI.verifyTextPresent('Error! There was something wrong with your submission. Please check out the errors.', false)
 
 WebUI.closeBrowser()
 

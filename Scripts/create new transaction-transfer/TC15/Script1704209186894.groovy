@@ -17,26 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.delay(3)
-
-WebUI.navigateToUrl('https://www.firefly-iii.org/')
+WebUI.openBrowser('https://demo.firefly-iii.org/')
 
 WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
 
 WebUI.click(findTestObject('Object Repository/login/button_login'))
 
 WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New transfer'))
+WebUI.click(findTestObject('sidebar/sidebar_item_new_transfer'))
 
-WebUI.setText(findTestObject('create_new_with_drawal/input_account_source'), 'test')
+WebUI.click(findTestObject('create_new_transfer/input_date'))
 
-WebUI.verifyElementPresent(findTestObject('create_new_with_drawal/input_account_source'), 
-    0)
+WebUI.sendKeys(findTestObject('create_new_transfer/input_date'), month)
+
+WebUI.sendKeys(findTestObject('create_new_transfer/input_date'), day)
+
+WebUI.sendKeys(findTestObject('create_new_transfer/input_date'), year)
+
+WebUI.sendKeys(findTestObject('create_new_transfer/input_date'), Keys.chord(Keys.RIGHT))
+
+WebUI.sendKeys(findTestObject('create_new_transfer/input_date'), hour)
+
+WebUI.sendKeys(findTestObject('create_new_transfer/input_date'), minute)
+
+WebUI.verifyElementAttributeValue(findTestObject('create_new_transfer/input_date'), 'value', expected_result, 0)
 
 WebUI.closeBrowser()
 

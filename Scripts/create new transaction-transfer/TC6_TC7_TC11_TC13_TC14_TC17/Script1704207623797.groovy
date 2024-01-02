@@ -27,11 +27,23 @@ WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
 WebUI.click(findTestObject('sidebar/sidebar_item_new_transfer'))
 
-WebUI.setText(findTestObject('create_new_transfer/input_description'), 'test')
+WebUI.setText(findTestObject('create_new_with_drawal/input_description'), description)
 
-actual_text = WebUI.getAttribute(findTestObject('create_new_transfer/input_description'), 'value')
+WebUI.setText(findTestObject('create_new_transfer/input_account_source'), source_account)
 
-WebUI.verifyEqual(actual_text, expected_text)
+WebUI.sendKeys(findTestObject('create_new_transfer/input_account_source'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('create_new_transfer/input_amount'), ammount)
+
+WebUI.setText(findTestObject('create_new_transfer/input_account_destination'), destination_account)
+
+WebUI.sendKeys(findTestObject('create_new_transfer/input_account_destination'), Keys.chord(Keys.ENTER))
+
+WebUI.setText(findTestObject('create_new_transfer/input_amount_foreign_amount'), foreign_account)
+
+WebUI.click(findTestObject('create_new_transfer/button_Submit'))
+
+WebUI.verifyTextPresent(expected_message, true)
 
 WebUI.closeBrowser()
 

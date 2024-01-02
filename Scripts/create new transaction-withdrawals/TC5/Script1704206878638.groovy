@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.delay(3)
-
-WebUI.navigateToUrl('https://www.firefly-iii.org/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
-
-WebUI.click(findTestObject('Object Repository/login/button_login'))
-
-WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
-
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New transfer'))
-
-WebUI.setText(findTestObject('create_new_with_drawal/input_account_destination'), 
-    'test')
-
-WebUI.verifyElementPresent(findTestObject('create_new_with_drawal/input_account_destination'), 
-    0)
-
-WebUI.closeBrowser()
-

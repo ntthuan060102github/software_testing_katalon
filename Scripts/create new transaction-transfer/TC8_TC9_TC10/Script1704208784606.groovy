@@ -27,11 +27,10 @@ WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
 WebUI.click(findTestObject('sidebar/sidebar_item_new_transfer'))
 
-WebUI.setText(findTestObject('create_new_transfer/input_description'), 'test')
+WebUI.setText(findTestObject('create_new_transfer/input_account_destination'), account_name)
 
-actual_text = WebUI.getAttribute(findTestObject('create_new_transfer/input_description'), 'value')
-
-WebUI.verifyEqual(actual_text, expected_text)
+WebUI.verifyElementAttributeValue(findTestObject('create_new_transfer/dropdown_destination_account'), 'class', expected_value, 
+    0)
 
 WebUI.closeBrowser()
 

@@ -17,26 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demo.firefly-iii.org/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
-
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New expense account'))
-
-WebUI.setText(findTestObject('Page_Create a new asset account  Accounts  _ced620/input_name'), Name)
-
-WebUI.uploadFile(findTestObject('Page_Create a new expense account  Accounts  Firefly III/input_Attachments_attachments'), 
-    file)
-
-WebUI.click(findTestObject('Page_Create a new expense account  Accounts  Firefly III/button_Store new expense account'))
-
-WebUI.verifyTextPresent(expected_message, false)
-
-WebUI.closeBrowser()
-

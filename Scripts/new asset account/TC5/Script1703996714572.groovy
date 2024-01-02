@@ -19,25 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.delay(3)
-
-WebUI.navigateToUrl('https://www.firefly-iii.org/')
+WebUI.navigateToUrl('https://demo.firefly-iii.org/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
+WebUI.click(findTestObject('Object Repository/login/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
+WebUI.click(findTestObject('Object Repository/sidebar/sidebar_item_new_asset_account'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/h4_New asset account'))
+WebUI.selectOptionByLabel(findTestObject('create_new_asset_account/dropdown_currency'), currency, false)
 
-WebUI.selectOptionByLabel(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'), 
-    currency, false)
-
-WebUI.verifyOptionSelectedByLabel(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'), 
-    expected_result, false, 0)
+WebUI.verifyOptionSelectedByLabel(findTestObject('create_new_asset_account/dropdown_currency'), expected_result, false, 
+    0)
 
 WebUI.closeBrowser()
 

@@ -19,23 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.delay(3)
-
-WebUI.navigateToUrl('https://www.firefly-iii.org/')
+WebUI.navigateToUrl('https://demo.firefly-iii.org/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
+WebUI.click(findTestObject('Object Repository/login/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
+WebUI.click(findTestObject('sidebar/button_new_expense_account'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New expense account'))
+WebUI.setText(findTestObject('create_new_expense_account/input_name'), 'test')
 
-WebUI.setText(findTestObject('Object Repository/Page_Create a new asset account  Accounts  _ced620/input_name'), 'test')
+actual_text = WebUI.getAttribute(findTestObject('create_new_expense_account/input_name'), 'value')
 
-WebUI.verifyElementPresent(findTestObject('Page_Create a new asset account  Accounts  _ced620/input_name'), 0)
+WebUI.verifyEqual(actual_text, expected_text)
 
 WebUI.closeBrowser()
 

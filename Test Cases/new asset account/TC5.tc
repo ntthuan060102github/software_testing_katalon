@@ -7,7 +7,7 @@
    <testCaseGuid>efecbe95-04df-4914-9f23-96384d920ca7</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>9c99e3e9-80bb-468f-ac7e-49a4c56c2c70</id>
+      <id>c72c08ff-1d58-4492-838a-31d3e07ad94f</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -15,13 +15,13 @@
       <testDataId>Data Files/create new asset account/new_asset_sheet2</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>9c99e3e9-80bb-468f-ac7e-49a4c56c2c70</testDataLinkId>
+      <testDataLinkId>c72c08ff-1d58-4492-838a-31d3e07ad94f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>currency</value>
       <variableId>c1f07fe6-22cf-439c-a43a-57e4cb6ae166</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>9c99e3e9-80bb-468f-ac7e-49a4c56c2c70</testDataLinkId>
+      <testDataLinkId>c72c08ff-1d58-4492-838a-31d3e07ad94f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>expected_result</value>
       <variableId>9c0a326f-9849-4201-94c5-2bab488062ce</variableId>

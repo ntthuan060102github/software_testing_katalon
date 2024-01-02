@@ -19,24 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.delay(3)
-
-WebUI.navigateToUrl('https://www.firefly-iii.org/')
+WebUI.navigateToUrl('https://demo.firefly-iii.org/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
+WebUI.click(findTestObject('Object Repository/login/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
+WebUI.click(findTestObject('sidebar/button_new_drawal'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New withdrawal'))
+WebUI.setText(findTestObject('create_new_with_drawal/input_description'), 'test')
 
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), 'test')
+actual_text = WebUI.getAttribute(findTestObject('create_new_with_drawal/input_description'), 'value')
 
-WebUI.verifyElementPresent(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), 
-    0)
+WebUI.verifyEqual(actual_text, expected_text)
 
 WebUI.closeBrowser()
 

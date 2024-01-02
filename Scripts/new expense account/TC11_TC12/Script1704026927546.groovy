@@ -23,18 +23,17 @@ WebUI.navigateToUrl('https://demo.firefly-iii.org/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/login/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
+WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
-WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New expense account'))
+WebUI.click(findTestObject('sidebar/button_new_expense_account'))
 
-WebUI.setText(findTestObject('Page_Create a new asset account  Accounts  _ced620/input_name'), Name)
+WebUI.setText(findTestObject('create_new_expense_account/input_name'), Name)
 
-WebUI.uploadFile(findTestObject('Page_Create a new expense account  Accounts  Firefly III/input_Attachments_attachments'), 
-    file)
+WebUI.uploadFile(findTestObject('create_new_expense_account/input_attachment'), file)
 
-WebUI.click(findTestObject('Page_Create a new expense account  Accounts  Firefly III/button_Store new expense account'))
+WebUI.click(findTestObject('create_new_expense_account/button_store'))
 
 WebUI.verifyTextPresent(expected_message, false)
 

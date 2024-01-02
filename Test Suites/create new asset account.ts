@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/new asset account/TC1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2943e942-0fee-477a-bff6-c3649d0c4455</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c3464b53-87c6-4b5f-a353-e660831fbb39</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>21a98839-05da-4678-a076-305230e673dd</guid>

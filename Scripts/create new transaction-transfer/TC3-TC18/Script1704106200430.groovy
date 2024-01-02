@@ -27,35 +27,35 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/login/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
+WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
 WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New transfer'))
 
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), description)
+WebUI.setText(findTestObject('create_new_with_drawal/input_description'), description)
 
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Source account_source'), source)
+WebUI.setText(findTestObject('create_new_with_drawal/input_account_source'), source)
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Source account_source'), Keys.chord(
+WebUI.sendKeys(findTestObject('create_new_with_drawal/input_account_source'), Keys.chord(
         Keys.ENTER))
 
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+WebUI.setText(findTestObject('create_new_with_drawal/input_account_destination'), 
     destination)
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Destination account_destination'), 
+WebUI.sendKeys(findTestObject('create_new_with_drawal/input_account_destination'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Create a new asset account  Accounts  _ced620/select_Euro ()British Pound ()Hungarian forint (Ft)US Dollar ()'), 
+WebUI.selectOptionByLabel(findTestObject('create_new_asset_account/dropdown_currency'), 
     currency, false)
 
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Date_date'))
+WebUI.setText(findTestObject('create_new_with_drawal/input_date'))
 
-WebUI.click(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/button_Submit'))
+WebUI.click(findTestObject('create_new_with_drawal/button_Submit'))
 
 WebUI.verifyTextPresent(expected_result, false)
 

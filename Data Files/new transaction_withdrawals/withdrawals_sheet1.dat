@@ -10,6 +10,12 @@
    <dataSourceUrl>Data Sources/test_data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>withdrawals_sheet1</sheetName>

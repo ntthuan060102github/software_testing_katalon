@@ -27,15 +27,15 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_Firefly III - A free and open source p_e563ca/a_Demo'))
 
-WebUI.click(findTestObject('Object Repository/Page_Login to Firefly III/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/login/button_login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Whats playing  Firefly III/a'))
+WebUI.click(findTestObject('Object Repository/sidebar/button_sidebar'))
 
 WebUI.click(findTestObject('Page_Whats playing  Firefly III/a_New transfer'))
 
-WebUI.setText(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), 'test')
+WebUI.setText(findTestObject('create_new_with_drawal/input_description'), 'test')
 
-WebUI.verifyElementPresent(findTestObject('Page_Create new withdrawal  Transactions  Firefly III/input_Description_description'), 
+WebUI.verifyElementPresent(findTestObject('create_new_with_drawal/input_description'), 
     0)
 
 WebUI.closeBrowser()

@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='ffInput_currency_id']</value>
+         <value>//*[@id=&quot;ffInput_currency_id&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>b82fe4d3-7362-42bf-83c4-d622a485e1ff</webElementGuid>
+      <webElementGuid>7421d3da-f5c8-4181-be67-4112ddcb038f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>0c1a2077-535a-476c-baf6-ece8a42bfce7</webElementGuid>
+      <webElementGuid>18d2682a-b207-440b-8a64-35b219d32863</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>currency_id</value>
-      <webElementGuid>9e355637-6eff-4a80-a078-ed58f800c66f</webElementGuid>
+      <webElementGuid>77b948b6-3bbc-462e-8ce3-39733ccc241f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ffInput_currency_id</value>
-      <webElementGuid>1d4af625-419f-4e9a-b4ef-4d6f3a125190</webElementGuid>
+      <webElementGuid>cf210411-6eae-45fe-8b41-8cde5d70345e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>7c02f220-a8b4-477e-ba8b-e8302e8d1f17</webElementGuid>
+      <webElementGuid>9d999bbb-9d9d-4113-a5ba-8c8a88e97e64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d6484ec0-0bd3-4777-8fac-3ebe5bd039da</webElementGuid>
+      <webElementGuid>45a82cf2-95d4-4f76-8ad8-780af41405d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Euro (€)British Pound (£)Hungarian forint (Ft)US Dollar ($)</value>
-      <webElementGuid>02446a4c-a704-4c65-b32d-aec143d107ce</webElementGuid>
+      <webElementGuid>392ca1cb-d2ae-4e4a-bfbd-f2c16fefd4f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ffInput_currency_id&quot;)</value>
-      <webElementGuid>af1b1c48-a2b2-48ca-b6bc-c632b1b0dff9</webElementGuid>
+      <webElementGuid>e20a78b6-7103-42ef-861e-d499d1ab6f6d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='ffInput_currency_id']</value>
-      <webElementGuid>0a4fdb43-9eac-4da2-abf6-efcfd24ed5e5</webElementGuid>
+      <webElementGuid>19feb27d-6495-4b7e-8366-f23af9656e3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='currency_id_holder']/div/select</value>
-      <webElementGuid>a15e03e3-d295-45b9-a06c-87b51b1639a7</webElementGuid>
+      <webElementGuid>f4678246-dd1f-4465-a904-69aa782fbf46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>6f0e3646-78da-4683-92cd-c4e81d2eded5</webElementGuid>
+      <webElementGuid>998dc06e-6ea9-4a50-a11e-38bc779ad9bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'currency_id' and @id = 'ffInput_currency_id' and (text() = 'Euro (€)British Pound (£)Hungarian forint (Ft)US Dollar ($)' or . = 'Euro (€)British Pound (£)Hungarian forint (Ft)US Dollar ($)')]</value>
-      <webElementGuid>b44b37bd-e920-4161-96ee-2ea8dbe08226</webElementGuid>
+      <webElementGuid>da8ec107-dd7a-4f17-86d5-2de90194c508</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
